@@ -8,8 +8,16 @@ Licence URI: https://www.os-templates.com/template-terms
 File: Layout CSS
 */
 
-@import url("fontawesome-4.3.0.min.css");
+/*@import url("fontawesome-4.3.0.min.css");*/
+
 @import url("framework.css");
+
+
+h1, h2, h3, h4, h5, h6, .heading, .btn{
+	font-family: "hobo-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -48,7 +56,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #intro{padding:220px 0 100px;}
 
-#intro .heading{font-size:80px; text-transform:uppercase; letter-spacing:2px;}
+#intro .heading{font-size:80px; text-transform:uppercase; letter-spacing:2px, -webkit-text-stroke: 2px #bbd2e7; -webkit-text-fill-color: transparent; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #bbd2e7; -webkit-text-fill-color: #3a438a;	 }
 #intro .btn{padding:20px 30px; font-size:1.4rem; font-weight:normal;}
 
 
@@ -216,20 +224,20 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#888888; background-color:#2F2F2F;}
-a{color:#93C0C5;}
-hr, .borderedbox{border-color:#D7D7D7;}
+a{color:#3a438a;}
+hr, .borderedbox{border-color:#FFFFFF;}
 label span{color:#FF0000; background-color:inherit;}
 .overlay{color:#FFFFFF; background-color:rgba(147,192,197,.8);}
-.btn{color:#FFFFFF; background-color:#93C0C5;}
+.btn{color:#FFFFFF; background-color:#3a438a;}
 .bg-white{color:inherit; background-color:#FFFFFF;}
 
 
 /* Rows */
-.row0, .row0 a{color:#242424; background-color:#FFFFFF;}
+.row0, .row0 a{color:#3a438a; background-color:#bbd2e7;}
 .row0{border-color:#D7D7D7;}
-.row1, .row1 a{color:#242424; background-color:#FFFFFF;}
-.row2{color:#242424; background-color:#F7F7F7; border-color:#FFFFFF;}
-.row3{color:#242424; background-color:#EBEBEB; border-color:#FFFFFF;}
+.row1, .row1 a{color:#3a438a; background-color:#FFFFFF;}
+.row2{color:#3a438a; background-color:#F7F7F7; border-color:#FFFFFF;}
+.row3{color:#3a438a; background-color:#bbd2e7; border-color:#FFFFFF;}
 .row4{color:#FFFFFF; background-color:inherit;}
 .row5{color:#888888; background-color:#282828;}
 .row6, .row6 a{color:#888888; background-color:#2F2F2F;}
@@ -241,40 +249,40 @@ label span{color:#FF0000; background-color:inherit;}
 
 /* Top Bar */
 #topbar input{color:inherit; background-color:#F5F5F5;}
-#topbar button{color:#FFFFFF; background-color:#93C0C5;}
+#topbar button{color:#FFFFFF; background-color:#3a438a;}
 
 
 /* Intro */
-#intro{color:#242424; background-color:inherit;}/* The color may have to change depending on the background image(s) used */
+#intro{color:#3a438a; background-color:inherit;}/* The color may have to change depending on the background image(s) used */
 
 
 /* Footer CTA / Info */
-#footercta .btn{color:#93C0C5; background-color:#FFFFFF;}
-
+#footercta .btn{color:#3a438a; background-color:#FFFFFF;}
 
 /* Footer */
-#footer .title{color:#FFFFFF; border-color:#2F2F2F;}
+#footer .title{color:#bbd2e7; border-color:#2F2F2F;}
 #footer input{color:#FFFFFF; background-color:#2F2F2F;}
-#footer button{color:#FFFFFF; background-color:#93C0C5;}
+#footer button{color:#FFFFFF; background-color:#bbd2e7;}
+#footer a{color:#bbd2e7; background-color:inherit;}
 
 
 /* Navigation */
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#93C0C5; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#3a438a; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#93C0C5;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#3a438a;}
 #mainav form select{border-color:#D7D7D7;}
 
 #breadcrumb a{color:#FFFFFF; background-color:inherit;}
 #breadcrumb li:last-child a{}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#93C0C5;}
+.container .sidebar nav a:hover{color:#3a438a;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current{color:#FFFFFF; background-color:#000000;}
 
-#backtotop{color:#FFFFFF; background-color:#93C0C5;}
+#backtotop {color:#3a438a; background-color:#FFFFFF;}
 
 
 /* Tables + Comments */
