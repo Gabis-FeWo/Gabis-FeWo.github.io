@@ -100,10 +100,10 @@ h1, h2, h3, h4, h5, h6, .heading, .btn{
 
 /* Footer CTA / Info
 --------------------------------------------------------------------------------------------------------------- */
-#footercta{padding:50px 0; text-align:center;}
+#footercta{ color: #3a438a; padding:50px 0; text-align:center;}
 #footercta .heading{text-transform:uppercase;}
 #footercta .heading, #footercta p{margin-bottom:15px;}
-#footercta p a{color:#FFFFFF; text-decoration: underline;}
+#footercta p a{text-decoration: underline;}
 
 
 /* Footer
